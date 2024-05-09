@@ -38,7 +38,7 @@ importers:
         version: 3.1.1
       semver:
         specifier: ^7.3.8
-        version: 7.3.8
+        version: 7.5.2
 
   packages/bwckkt: {}
 
@@ -131,6 +131,8 @@ importers:
   packages/zkxw: {}
 
   packages/zlmyz: {}
+
+  packages/zqfs: {}
 
   packages/zqzmxs: {}
 
@@ -811,7 +813,7 @@ packages:
       js-string-escape: 1.0.1
       lodash: 4.17.21
       md5-hex: 3.0.1
-      semver: 7.3.8
+      semver: 7.5.2
       well-known-symbols: 2.0.0
     dev: false
 
@@ -2150,8 +2152,8 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
 
-  /semver@7.3.8:
-    resolution: {integrity: sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==}
+  /semver@7.5.2:
+    resolution: {integrity: sha512-SoftuTROv/cRjCze/scjGyiDtcUyxw1rgYQSZY7XTmtR5hX+dm76iDbTH8TkLPHCQmlbQVSSbNZCPM2hb0knnQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
