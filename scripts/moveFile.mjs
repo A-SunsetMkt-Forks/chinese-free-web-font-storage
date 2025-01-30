@@ -21,5 +21,6 @@ files.forEach((i) => {
 });
 
 fs.copy("./_headers", "./dist/_headers");
+fs.copy("./_redirects", "./dist/_redirects");
 fs.copy("./index.html", "./dist/index.html");
 fs.copy("./index.json", "./dist/index.json");
