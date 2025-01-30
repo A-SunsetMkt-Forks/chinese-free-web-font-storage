@@ -16,9 +16,3 @@ for = "/*"
 Access-Control-Allow-Origin = "*"
 Vary = "Origin"
 Cache-Control = "public, max-age=86400, s-maxage=86400"
-
-[[redirects]]
-  from = "/v2/*"
-  to = "https://font-registry.netlify.app/api/source"
-  status = 200
-  force = true
